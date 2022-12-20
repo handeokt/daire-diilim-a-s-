@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+public class main {
+    public static void main(String[] args) {
+
+    Scanner input= new Scanner(System.in);
+
+    int r;
+
+    double a,c,pi=3.14;
+
+    System.out.print("Yarıçap giriniz: ");
+    r=input.nextInt();
+
+    double aci;
+    System.out.print("Daire dilimi açısını giriniz: ");
+    aci=input.nextDouble();
+
+
+    a=((pi*aci)*(r*r))/360;
+
+
+    c=2*pi*r;
+
+    System.out.println("Dairenizin alanı: "+a);
+    System.out.print("Dairenizin cevresi: "+c);
+
+
+    }
+}
